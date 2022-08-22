@@ -1,5 +1,6 @@
 # CI-CD_with_Jenkins_Ansible_Kubernetes
 Master DevOps CI/CD pipelines using Git, Jenkins, Ansible, Docker, and Kubernetes on AWS
+![image](https://user-images.githubusercontent.com/16730122/185938092-196f131b-c309-4536-9914-db4b55c85926.png)
 
 Agenda:
 I will start with building and deploying it on the Tomcat server. I will set up CI/CD with GitHub, Jenkins, Maven, and Tomcat. Initially, there is no environment; therefore, I start with setting up Jenkins, configuring Maven and Git, Tomcat server, integrating GitHub, Maven, Tomcat server with Jenkins, creating a CI and CD job, and testing the deployment.
