@@ -1,0 +1,5 @@
+.git
+*.tfplan
+*.tfstate
+*.backup
+*.log
