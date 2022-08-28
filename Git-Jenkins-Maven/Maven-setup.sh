@@ -7,6 +7,9 @@
   mv apache-maven-3.8.6 maven
 
 #Maven Environment Variables:
-  M2_HOME=/opt/maven  #Maven home dir
-  M2=/opt/maven/bin   #path to mvn
-  JAVA_HOME=          #
+  sudo su 
+  export M2_HOME=/opt/maven                                     #Maven home dir
+  export M2=/opt/maven/bin                                      #Path to mvn
+  export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto.x86_64  #Path to jvm dir
+ 
+ 

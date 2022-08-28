@@ -6,6 +6,9 @@
   sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 
 #If you've previously imported the key from Jenkins, the rpm --import will fail because you already have a key. Please ignore that and move on.
- sudo yum install fontconfig java-11-openjdk
- sudo yum install jenkins
-  
+ sudo yum -y install fontconfig java-11-openjdk
+ sudo yum -y update
+ sudo yum -y install jenkins git
+
+#Start Jenkins
+ sudo systemctl start jenkins
