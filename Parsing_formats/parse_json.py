@@ -3,6 +3,7 @@ import yaml
 
 with open('file.json','r') as json_file:
     ourjson = json.load(json_file)
+
 print(ourjson)
 #Parse json
 print("The access token is {}".format(ourjson['squadName']))
